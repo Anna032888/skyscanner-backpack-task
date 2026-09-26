@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5f7;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.card {
+  width: min(100%, 440px);
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(22, 37, 57, 0.12);
+}
+
+h1 {
+  margin-top: 0;
+  color: #091e42;
+}
+
+.selected-date {
+  min-height: 24px;
+  margin: 24px 0 16px;
+  color: #42526e;
+}
